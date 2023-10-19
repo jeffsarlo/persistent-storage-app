@@ -27,7 +27,6 @@
 
 <div class="image-grid">
     <?php
-    //$dir = '/var/lib/data/galleries/';
     $dir = 'galleries/';
     $allowedTypes = ['jpg', 'jpeg', 'png', 'gif'];
 
