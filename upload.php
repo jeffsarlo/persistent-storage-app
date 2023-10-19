@@ -14,7 +14,6 @@
 <?php
 // Check if the form was submitted
 if (isset($_POST["submit"])) {
-    //$targetDirectory = "var/lib/data/galleries/";
     $targetDirectory = "/app/galleries/";
     $targetFile = $targetDirectory . basename($_FILES["fileToUpload"]["name"]);
     $uploadOk = 1;
